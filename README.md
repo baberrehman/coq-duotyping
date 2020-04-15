@@ -36,7 +36,7 @@ the respective systems. For example, one can find the Coq code for the system λ
 Monotyping/STLCSub.v (we consider unzipped suplements directory as reference point).
 We have algorithmic and the declerative formulation for all the Duotyping systems.
 
-|--------|------------------------------------------------------------------------------|-----------------------------------|
+
 | Name   | Description                                                                  | Coq File                          |
 |--------|------------------------------------------------------------------------------|-----------------------------------|
 | λ<:    | STLC with subtyping                                                          | Monotyping/STLCSub.v              |
@@ -54,4 +54,3 @@ We have algorithmic and the declerative formulation for all the Duotyping system
 | FF<:   | System full F<:                                                              | Monotyping/FSub.v                 |
 | FF♦    | System full F<: with Duotyping (Algorithmic)                                 | GFSubFull.v                       |
 | FF♦    | System full F<: with Duotyping (Declerative)                                 | GFSubFullExtra.v                  |
-|--------|------------------------------------------------------------------------------|-----------------------------------|
