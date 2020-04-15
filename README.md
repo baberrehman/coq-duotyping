@@ -19,15 +19,19 @@ these dependencies are installed. Refer to this link for more information and in
 steps: https://coq.inria.fr/opam-using.html
 
 ### Getting the files
-If you are seeing this file then you already have unzipped the suplements.
-There is a folder with the name coq in the suplements. All the Coq files are available inside
-the folder coq.
+Use the following commands to clone our git repo. Please note that **$** symbol is not a part of command:
+
+$ git clone https://github.com/baberrehman/coq-duotyping.git
+
+You should be able to see all the Coq files inside folder **coq** after cloning the repo. Alternatively you can
+download the zip file from repo and you should be able to see all the Coq files after unzipping
+it.
 
 
 Coq files
 ---------
-This section explains all the Coq files of our Duotyping systems and the traditional sub-
-typing systems that we formalized. A table below shows the correspondance of Coq files and
+This section explains all the Coq files of our Duotyping systems and the traditional subtyping
+systems that we formalized. A table below shows the correspondance of Coq files and
 the respective systems. For example, one can find the Coq code for the system λ <: in file
 Monotyping/STLCSub.v (we consider unzipped suplements directory as reference point).
 We have algorithmic and the declerative formulation for all the Duotyping systems.
@@ -39,7 +43,7 @@ We have algorithmic and the declerative formulation for all the Duotyping system
 | λ♦     | STLC with Duotyping (Algorithmic)                                            | GStlc.v                           |
 | λ♦     | STLC with Duotyping (Declerative)                                            | GStlcExtra.v                      |
 | λ<:∧∨  | STLC with subtyping, union and intersection types                            | Monotyping/STLCSubUnionInter.v    |
-| λ♦∧∨   |  STLC with Duotyping, union and intersection types (Algorithmic)             | GUnionInter.v                     |
+| λ♦∧∨   | STLC with Duotyping, union and intersection types (Algorithmic)              | GUnionInter.v                     |
 | λ♦∧∨   | STLC with Duotyping, union and intersection types (Declerative)              | GUnionInterExtra.v                |
 | Fk<:   | System F<: kernel                                                            | Monotyping/FSubKernal.v           |
 | Fk♦    | System F<: kernel with Duotyping (Algorithmic)                               | GFSubKernel.v                     |
