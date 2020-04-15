@@ -24,9 +24,9 @@ Use the following commands to clone our git repo. Please note that **$** symbol 
 $ git clone https://github.com/baberrehman/coq-duotyping.git
 
 You should be able to see all the Coq files inside folder **coq** after cloning the repo. Alternatively you can
-download the zip file from repo and you should be able to see all the Coq files after unzipping
-it.
+download the zip file from repo and you should be able to see all the Coq files after unzipping it.
 
+You can also find a copy of our ECOOP'20 paper (The Duality of Subtyping) in **docs** folder.
 
 Coq files
 ---------
