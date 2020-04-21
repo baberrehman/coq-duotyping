@@ -406,8 +406,6 @@ Qed.
 (* ********************************************************************** *)
 (** Narrowing and transitivity (3) *)
 
-Section NarrowTrans.
-
 (*Definition transitivity_on Q := forall S T,
   sub S Q -> sub Q T -> sub S T.
 

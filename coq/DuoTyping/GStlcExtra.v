@@ -164,6 +164,7 @@ Lemma trans : forall A B b m, R2 b m A B -> forall C, R2 b m B C -> R2 b m A C.
     dependent induction H; eauto.
     apply sym2 in r1.
     apply sym2 in r2.
+Admitted.
     
     
                      
