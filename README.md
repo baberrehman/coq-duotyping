@@ -46,11 +46,26 @@ This section explains how to build the artifact from scratch
 
 ### Preprequisites
 We tested all the Coq files using Coq version 8.7.0. Please use same version for the sake
-of consistency. We recommend installing Coq using the opam package installer. Coq TLC
-library is also required to compile the code. TLC library can also be installed using the
-opam package installer. User should be able to run each file individually using Coqide if
-these dependencies are installed. Refer to this link for more information and installation
+of consistency. We recommend installing Coq using the opam package installer. 
+
+`$ opam install coq.8.7.0`
+
+Refer to this link for more information and installation
 steps: https://coq.inria.fr/opam-using.html
+
+### Required Libraries
+
+Coq TLC library release 20181116 is also required to compile the code. TLC library can also
+be installed using the opam package installer.
+
+Run the following commands one by one to install TLC by opam package installer:
+
+1. `$ opam repo add coq-released http://coq.inria.fr/opam/released`
+2. `$ opam install coq-tlc.20181116`
+
+Please refer to this link for detailed compilation and installation of Coq TLC:
+https://gitlab.inria.fr/charguer/tlc/-/blob/20181116/README.md
+
 
 ### Getting the files
 Use the following commands to clone our git repo. Please note that **$** symbol is not a part of command:
@@ -61,6 +76,15 @@ You should be able to see all the Coq files inside folder **coq** after cloning 
 download the zip file from repo and you should be able to see all the Coq files after unzipping it.
 
 You can also find a copy of our ECOOP'20 paper (The Duality of Subtyping) in **docs** folder.
+
+### Compilation
+Please make sure to run the following command before running make if you installed the
+Coq via opam:
+
+`$ eval $(opam env)`
+
+Makefiles are available in both MonoTyping and DuoTyping folder. Run make command
+individually in each folder to compile.
 
 Coq files
 ---------
