@@ -7,8 +7,9 @@ Subtyping". This document explains how to run the Coq formulations. It also expl
 files briefly. Artifact can either be compiled in the pre-built docker image with all the dependencies
 installed or it could be built from the scratch.
 
-1) Docker Image
----------------
+----------------------------------------------------------------------------------------------------
+
+# Docker Image #
 
 This section explains how to pull the docker image of artifact from docker repo and use it.
 Run the following commands one by one in terminal:
@@ -39,8 +40,7 @@ Go to each folder and run make:
 3. `$ make`
 
 
-2) Build from Scratch
----------------------
+# Build from Scratch #
 
 This section explains how to build the artifact from scratch
 
@@ -86,8 +86,8 @@ Coq via opam:
 Makefiles are available in both MonoTyping and DuoTyping folder. Run make command
 individually in each folder to compile.
 
-3) Coq files
-------------
+# Coq files #
+
 This section explains all the Coq files of our Duotyping systems and the traditional subtyping
 systems that we formalized. A table below shows the correspondance of Coq files and
 the respective systems. For example, one can find the Coq code for the system λ <: in file
