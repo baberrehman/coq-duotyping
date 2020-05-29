@@ -1,14 +1,44 @@
-# The Duality of Subtyping (artifact)
+# The Duality of Subtyping (Artifact)
 
 Abstract
 --------
 This artifact contains the Coq formulation of Duotyping associated with the paper "The Duality of
 Subtyping". This document explains how to run the Coq formulations. It also explains the Coq
-files briefly.
+files briefly. Artifact can either be compiled in the pre-built docker image with all the dependencies
+installed or it could be built from the scratch.
+
+Docker Image
+------------
+
+This section explains how to pull the docker image of artifact from docker repo and use it.
+Run the following commands one by one in terminal:
+
+1. $ docker pull baberrehman/duotyping
+2. $ docker run -it baberrehman/duotyping
+3. $ eval $(opam env)
+
+The artifact is located in /home/coq/coq-duotyping/coq/ directory.
+
+There are two folders in the artifact, with make file in each:
+
+1. MonoTyping → contains traditional subtyping formulation
+2. DuoTyping → contains our duotyping formulation
+
+Go to each folder and run make:
+
+1. $ cd /home/coq/coq-duotyping/coq/DuoTyping
+2. $ eval $(opam env)
+3. $ make
+
+1. $ cd /home/coq/coq-duotyping/coq/MonoTyping
+2. $ eval $(opam env)
+3. $ make
 
 
-How to use
-----------
+Build from Scratch
+------------------
+
+This section explains how to build the artifact from scratch
 
 ### Preprequisites
 We tested all the Coq files using Coq version 8.7.0. Please use same version for the sake
