@@ -21,14 +21,18 @@ The artifact is located in /home/coq/coq-duotyping/coq/ directory.
 
 There are two folders in the artifact, with make file in each:
 
-1. MonoTyping → contains traditional subtyping formulation
-2. DuoTyping → contains our duotyping formulation
+1. **MonoTyping** → contains traditional subtyping formulation
+2. **DuoTyping** → contains our duotyping formulation
 
 Go to each folder and run make:
+
+### DuoTyping
 
 1. $ cd /home/coq/coq-duotyping/coq/DuoTyping
 2. $ eval $(opam env)
 3. $ make
+
+### MonoTyping
 
 1. $ cd /home/coq/coq-duotyping/coq/MonoTyping
 2. $ eval $(opam env)
