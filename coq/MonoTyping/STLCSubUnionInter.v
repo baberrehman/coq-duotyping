@@ -69,8 +69,6 @@ Notation "x ~: T" := (x ~ T)
 
 Definition env := LibEnv.env typ.
 
-Print LibEnv.env.
-
 (** A environment E is well-formed if it contains no duplicate bindings *)
 
 Inductive okt : env -> Prop :=
