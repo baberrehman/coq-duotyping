@@ -69,6 +69,10 @@ systems that we formalized. A table below shows the correspondance of Coq files 
 the respective systems. For example, one can find the Coq code for the system λ <: in file
 Monotyping/STLCSub.v (we consider unzipped suplements directory as reference point).
 We have algorithmic and the declerative formulation for all the Duotyping systems.
+The Coq formalizations for the traditional subtyping systems are based on existing Coq formalizations
+from the locally nameless representation with cofinite quantification tutorial and repository
+(https://www.chargueraud.org/softs/ln/) by Charguéraud. The formalizations of
+duotyping systems are modified from the original ones with traditional subtyping.
 
 
 | Name   | Description                                                                  | Coq File                          |
