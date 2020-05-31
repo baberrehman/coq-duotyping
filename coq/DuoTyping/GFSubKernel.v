@@ -1,4 +1,8 @@
-(* Generalized Kernel FSub *)
+(**************************************************************************************************
+* Preservation and Progress for System-F kernel with duotyping                                      *
+* Based on original code by: Brian Aydemir & Arthur Charguéraud, March 2007, Coq v8.1   
+* Modifications by Bruno C. d. S. Oliveira, Shaobo Cui and Baber Rehman, January 2020, Coq v8.7.0   *
+***************************************************************************************************)
 
 Set Implicit Arguments.
 Require Import TLC.LibLN.

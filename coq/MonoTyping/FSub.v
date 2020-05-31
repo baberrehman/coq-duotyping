@@ -1,7 +1,8 @@
-(***************************************************************************
-* Preservation and Progress for System-F with Subtyping - Definitions      *
-* Brian Aydemir & Arthur Charguéraud, March 2007, Coq v8.1                 *
-***************************************************************************)
+(**************************************************************************************************
+* Preservation and Progress for System-F with Subtyping                                             *
+* Based on original code by: Brian Aydemir & Arthur Charguéraud, March 2007, Coq v8.1   
+* Modifications by Bruno C. d. S. Oliveira, Shaobo Cui and Baber Rehman, January 2020, Coq v8.7.0   *
+***************************************************************************************************)
 
 Set Implicit Arguments.
 Require Import TLC.LibLN.
